@@ -2,8 +2,8 @@ import requests
 import csv
 
 # get your API key https://app.ioannotator.com/api
-params= {'apikey': '8D6F0ES-XXYM6BW-K0JJGBP-G1CCQRY'}
-api = 'http://localhost:8080/import/texts'
+params= {'apikey': 'add your API key here'}
+api = 'https://api.ioannotator.com/import/texts'
 
 with open('./sample.csv') as csvfile:
     rows = csv.DictReader(csvfile, delimiter=';')
