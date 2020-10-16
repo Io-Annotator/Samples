@@ -1,7 +1,5 @@
-# install.packages("httr")
-# install.packages("jsonlite")
-
 library(httr)
+library(jsonlite)
 
 # get your API key https://app.ioannotator.com/api
 query = list(apikey = "add your API key here")
